@@ -1,0 +1,27 @@
+h1 {
+    font-family: $font-secondary;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 50.6px;
+}
+
+h2 {
+    font-family: $font-secondary;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: em(24);
+}
+
+h3 {
+    font-family: $font-secondary;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26.4px;
+    margin-bottom: em(24);
+}
+
+p {
+    line-height: 24px;
+    margin-bottom: em(32);
+}

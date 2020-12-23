@@ -1,0 +1,14 @@
+.btn {
+    border-radius: 3px;
+    padding: 9px 16px;
+    &.discord-btn {
+        background-color: $discord-color;
+        img {
+            height: 21px;
+            width: 150px;
+        }
+    }
+    &.github-btn {
+        background-color: $github-color;
+    }
+}

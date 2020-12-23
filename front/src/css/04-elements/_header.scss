@@ -1,0 +1,47 @@
+header {
+    background-color: $black;
+    height: 100vh;
+    padding: em(24) 0;
+
+    .logo {
+        margin-bottom: em(24);
+    }
+
+    .title {
+        align-items: center;
+        margin-bottom: em(24);
+        h1 {
+            color: white;
+            margin-right: em(24);
+        }
+    }
+
+    h2 {
+        color: white;
+    }
+
+    p {
+        color: $grey;
+        margin-bottom: em(48);
+    }
+
+    .left, .right {
+        margin: auto 0;
+        max-height: 80vh;
+    }
+
+    .left {
+        width: 45.5%;
+
+
+        .github-btn {
+            margin-right: em(24);
+        }
+    }
+
+    .right {
+        img {
+            width: 70%;
+        }
+    }
+}

@@ -5,11 +5,112 @@
         <meta name="viewport"
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" type="image/svg" href="img/Logo.svg">
         <link rel="stylesheet" href="assets/css/index.min.css">
-        <title>Intégration</title>
+        <title>Qovery Landing Page</title>
     </head>
     <body>
-        <h1></h1>
+        <header>
+            <div class="container">
+                <div class="logo"><img src="img/Logotype.svg" alt="Qovery Logo"></div>
+                <div class="row">
+                    <div class="left">
+                        <div class="title row">
+                            <h1>Qovery Engine</h1>
+                            <a class="github-button" href="https://github.com/qovery/engine" data-size="large" data-show-count="true" aria-label="Star qovery/engine on GitHub">Star</a>
+                        </div>
+                        <h2>Abstraction layer to deploy microservices applications on any Cloud provider.</h2>
+                        <p>
+                            Qovery Engine is an open-source abstraction layer product that turns easy apps deployment on AWS, GCP, Azure and others Cloud providers.
+                        </p>
+                        <div class="row">
+                            <button class="btn github-btn"><img src="img/Icon-Btn-Github.svg" alt="See on Github"></button>
+                            <button class="btn discord-btn"><img src="img/Icon-Btn-Discord.svg" alt="Join us on Discord"></button>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <img src="img/Stack.png" alt="Schèma illustrant le fonctionnement de Qovery Engine">
+                    </div>
+                </div>
+                </div>
+        </header>
+        <section class="sec-1">
+            <h2>How does it work?</h2>
+            <p class="subtitle">
+                Qovery Engine is an open-source abstraction layer product that turns easy apps deployment on AWS, GCP, Azure and others Cloud providers. The Qovery Engine is coded in Rust and takes advantage of Terraform, Helm, Kubectl, Docker to manage resources.
+            </p>
+            <div class="schema">
+                <img src="img/Schema.png" alt="How does it work schema">
+            </div>
+        </section>
+        <section class="sec-2">
+            <h2>Usage</h2>
+            <p class="subtitle">
+                Initialize EKS (AWS Kubernetes) and ECR (AWS container registry) on AWS
+            </p>
+            <div class="code">
+                <img src="img/Linecode.svg" alt="lignes de code">
+            </div>
+            <div class="row">
+                <button class="btn github-btn"><img src="img/Icon-Btn-Github2.svg" alt="See on Github"></button>
+                <button class="btn discord-btn"><img src="img/Icon-Btn-Discord.svg" alt="Join us on Discord"></button>
+            </div>
+        </section>
+        <section class="sec-3">
+            <div class="grid">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/Illu1.png">
+                    </div>
+                    <h3 class="card-title">Deploy real world applications</h3>
+                    <p class="card-text">
+                        Qovery Engine empowers you to deploy complex applications, such as a backend, a frontend, and a database in a very simple way.
+                        <br/><br/>Servers, networking, security, all is done by the Engine for you.
+                    </p>
+                    <a href="#" class="card-link">See more</a>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/Illu2.png">
+                    </div>
+                    <h3 class="card-title">Resiliency is key</h3>
+                    <p class="card-text">
+                        Qovery Engine knows when something goes wrong on the deployment of your applications. Qovery Engine is built with resiliency in mind.
+                        <br/><br/>A transactional engine inspired by what is provided into ACID databases has been developed at the heart of the product to rollback on a consistent and working application version when something goes wrong.
+                    </p>
+                    <a href="#" class="card-link">See more</a>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/Illu3.png">
+                    </div>
+                    <h3 class="card-title">On top of the best tools</h3>
+                    <p class="card-text">
+                        Qovery Engine does not reinvent the wheel. It takes advantage of the best tools in the Cloud industry, such as Kubernetes, Terraform, and Helm to manage the deployment of the infrastructure and your applications.
+                        <br/> <br/>Servers, networking, security, all is done by the Engine for you.
+                    </p>
+                    <a href="#" class="card-link">See more</a>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/Illu4.png">
+                    </div>
+                    <h3 class="card-title">Extensible</h3>
+                    <p class="card-text">
+                        Qovery Engine is built to be highly extensible. Adding the support of a Cloud provider or a Continuous Integration platform is as simple as implementing a simple programmatic interface.
+                    </p>
+                    <a href="#" class="card-link">See more</a>
+                </div>
+            </div>
+        </section>
+        <section class="sec-4">
+            <h2>They use Qovery Engine</h2>
+            <p>Il manque une partie de la maquette...</p>
+        </section>
+        <footer>
+
+        </footer>
     </body>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script src="assets/js/index.min.js"></script>
 </html>
