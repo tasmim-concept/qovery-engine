@@ -2,6 +2,7 @@ section {
     &.sec-1 {
         img {
             width: auto;
+            max-width: 100%;
         }
     }
 
@@ -23,10 +24,13 @@ section {
         }
 
         .row {
-            justify-content: center;
-            .github-btn {
-                margin-right: em(24);
+            @media #{$media-up-sm} {
+                justify-content: center;
+                .github-btn {
+                    margin-right: em(24);
+                }
             }
+
             .start-anim {
                 &.btn:nth-child(1) {
                     animation: fade-from-left 1s ease-in-out;
@@ -37,4 +41,8 @@ section {
             }
         }
     }
+}
+
+.card.start-anim {
+    animation: fade-from-top 1s ease-in-out;
 }

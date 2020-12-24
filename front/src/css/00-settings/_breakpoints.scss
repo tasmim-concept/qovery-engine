@@ -1,0 +1,11 @@
+$bp-sm: 576px; //Smartphones
+$bp-md: 768px; //Tablettes (ou smartphones en mode portrait)
+$bp-lg: 992px; //PC
+$bp-xl: 1200px; //PC grand-écran
+
+$all-media: only screen and (min-width: 0);
+$media-up-sm: only screen and (min-width: $bp-sm);
+$media-up-md: only screen and (min-width: $bp-md);
+$media-up-lg: only screen and (min-width: $bp-lg);
+$media-up-xl: only screen and (min-width: $bp-xl);
+//Utilisation: @media #{$media-up-sm} {}
