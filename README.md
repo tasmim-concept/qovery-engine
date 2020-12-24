@@ -6,4 +6,4 @@ Benjamin Code](https://www.youtube.com/watch?v=f1kC1785aGs).
 - [X] Intégration globale de la maquette
 - [ ] Intégrer la dernière section (manque une partie de la maquette)
 - [ ] Responsive
-- [ ] Animation
+- [X] Animation

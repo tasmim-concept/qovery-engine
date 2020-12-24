@@ -1,0 +1,40 @@
+section {
+    &.sec-1 {
+        img {
+            width: auto;
+        }
+    }
+
+    &.sec-2 {
+        background-image: url('img/sec-2-bg.svg');
+        background-repeat: no-repeat;
+        background-size: 90%;
+        background-position: 50% 3em;
+
+        .code {
+            margin: 5em 0;
+            border-radius: 3px;
+            padding: em(24);
+            background-color: $white;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .row {
+            justify-content: center;
+            .github-btn {
+                margin-right: em(24);
+            }
+            .start-anim {
+                &.btn:nth-child(1) {
+                    animation: fade-from-left 1s ease-in-out;
+                }
+                &.btn:nth-child(2) {
+                    animation: fade-from-right 1s ease-in-out;
+                }
+            }
+        }
+    }
+}

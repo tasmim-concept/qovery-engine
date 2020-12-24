@@ -1,6 +1,7 @@
 .container {
     width: 85vw;
     margin: auto;
+    overflow: hidden;
 }
 
 .row {
@@ -9,7 +10,9 @@
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 5em;
-    column-gap: 5em;
+    grid-gap: 3em;
+    &.grid-2 {
+        grid-template-columns: 1fr 1fr;
+    }
+    align-items: center;
 }

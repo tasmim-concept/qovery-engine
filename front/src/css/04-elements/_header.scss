@@ -1,47 +1,56 @@
 header {
     background-color: $black;
-    height: 100vh;
     padding: em(24) 0;
 
     .logo {
-        margin-bottom: em(24);
-    }
-
-    .title {
-        align-items: center;
-        margin-bottom: em(24);
-        h1 {
-            color: white;
-            margin-right: em(24);
-        }
-    }
-
-    h2 {
-        color: white;
-    }
-
-    p {
-        color: $grey;
-        margin-bottom: em(48);
-    }
-
-    .left, .right {
-        margin: auto 0;
-        max-height: 80vh;
+        margin-bottom: em(24px);
     }
 
     .left {
-        width: 45.5%;
+        .title {
+            align-items: center;
+            margin-bottom: em(24px);
+            h1 {
+                color: $white;
+                margin-right: em(24px);
+            }
+        }
 
+        h2 {
+            color: $white;
+        }
 
-        .github-btn {
-            margin-right: em(24);
+        p {
+            color: $grey;
+            margin-bottom: em(24px);
+        }
+
+        .btn {
+            opacity: 0;
+            &.btn:nth-child(1) {
+                margin-right: em(24px);
+                &.start-anim {
+                    animation: fade-from-right 1s ease-in-out forwards;
+                }
+            }
+            &.btn:nth-child(2) {
+                &.start-anim {
+                    animation: fade-from-right 1s ease-in-out forwards;
+                    animation-delay: .5s;
+                }
+            }
         }
     }
 
     .right {
+        height: 90vh;
+        align-items: center;
         img {
-            width: 70%;
+            display: block;
+            //width: 100%;
+            &.start-anim {
+                animation: fade-from-top 1s ease-in-out;
+            }
         }
     }
 }
