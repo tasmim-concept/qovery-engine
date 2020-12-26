@@ -29,7 +29,6 @@ header {
         }
 
         .btn {
-            opacity: 0;
             &.btn:nth-child(1) {
                 margin-right: em(24px);
                 &.start-anim {
@@ -38,6 +37,7 @@ header {
             }
             &.btn:nth-child(2) {
                 &.start-anim {
+                    opacity: 0;
                     animation: fade-from-right 1s ease-in-out forwards;
                     animation-delay: .5s;
                 }

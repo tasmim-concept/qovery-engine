@@ -7,12 +7,10 @@
 
     @media #{$media-up-sm} {
         width: $bp-sm;
-        border: solid green 1px;
     }
 
     @media #{$media-up-md} {
         width: $bp-md;
-        border: solid red 1px;
     }
 
     @media #{$media-up-lg} {
